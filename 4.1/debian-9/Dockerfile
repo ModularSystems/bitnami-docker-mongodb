@@ -1,5 +1,5 @@
-FROM bitnami/minideb-extras:stretch-r370
-LABEL maintainer "Bitnami <containers@bitnami.com>"
+FROM arm64v8/debian:stretch-slim
+LABEL maintainer "ModularSystems <support@modularsystems.io>"
 
 ENV BITNAMI_PKG_CHMOD="-R g+rwX" \
     HOME="/"
